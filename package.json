@@ -1,0 +1,29 @@
+{
+  "name": "tbz-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.10.3",
+    "@emotion/react": "^11.10.4",
+    "@emotion/server": "^11.10.0",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.9",
+    "next": "12.1.5",
+    "nprogress": "^0.2.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "swiper": "^8.4.4"
+  },
+  "devDependencies": {
+    "@emotion/babel-plugin": "^11.10.2",
+    "@emotion/eslint-plugin": "^11.10.0",
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1"
+  }
+}

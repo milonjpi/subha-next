@@ -26,10 +26,10 @@ const BrandImage = styled.img`
 
 const pages = [
   { title: 'Home', path: '/' },
-  { title: 'About', path: '/about' },
-  { title: 'Portfolio', path: '/portfolio' },
-  { title: 'Services', path: '/services' },
+  { title: 'Clothes', path: '/services' },
+  { title: 'Accessories', path: '/portfolio' },
   { title: 'Blog', path: '/blog' },
+  { title: 'About', path: '/about' },
   { title: 'Contact', path: '/contact' },
 ];
 
@@ -64,12 +64,18 @@ const Header = () => {
             }}
           >
             <Link href="/" passHref>
-              <Typography component="a">
-                <BrandImage
-                  style={{ width: 220 }}
-                  src={brandImage}
-                  alt="Brand-Image"
-                />
+              <Typography
+                component="a"
+                sx={{
+                  textDecoration: 'none',
+                  color: '#222',
+                  fontFamily: 'Open Sans',
+                  fontWeight: 700,
+                  fontSize: 30,
+                  // letterSpacing: 2,
+                }}
+              >
+                SUBHA<span style={{ color: '#e53637' }}>.</span>
               </Typography>
             </Link>
           </Box>
@@ -150,12 +156,18 @@ const Header = () => {
             }}
           >
             <Link href="/" passHref>
-              <Typography component="a">
-                <BrandImage
-                  style={{ width: 180 }}
-                  src={brandImage}
-                  alt="Brand-Image"
-                />
+              <Typography
+                component="a"
+                sx={{
+                  textDecoration: 'none',
+                  color: '#222',
+                  fontFamily: 'Open Sans',
+                  fontWeight: 700,
+                  fontSize: 30,
+                  // letterSpacing: 2,
+                }}
+              >
+                SUBHA<span style={{ color: '#e53637' }}>.</span>
               </Typography>
             </Link>
           </Box>
@@ -176,10 +188,10 @@ const Header = () => {
                     color: 'inherit',
                     display: 'block',
                     textAlign: 'center',
-                    textTransform: 'capitalize',
+                    textTransform: 'uppercase',
                     fontSize: 12,
                     fontFamily: 'Open Sans',
-                    letterSpacing: '0.1em',
+                    letterSpacing: '0.15em',
                     mr: 0.5,
                     backgroundColor: page.path === router.pathname && '#f6f9ff',
                     borderBottom:

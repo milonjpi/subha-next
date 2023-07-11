@@ -5,6 +5,7 @@ import HeroSection from '../src/components/Home/HeroSection';
 import OurProduct from '../src/components/Home/OurProduct';
 import Portfolio from '../src/components/Home/Portfolio';
 import Layout from '../src/components/Layout';
+import HomeCategories from '../src/components/Home/HomeCategories';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <meta name="description" content="TBZ Engineering" />
       </Head>
       <HeroSection />
+      <HomeCategories />
       <Portfolio />
       {/* <OurProduct /> */}
       <BlogSection />

@@ -6,12 +6,7 @@ import Link from 'next/link';
 
 const LinkItem = ({ title, data }) => {
   return (
-    <Box
-      sx={{
-        display: 'flex',
-        justifyContent: { xs: 'flex-Start', lg: 'center' },
-      }}
-    >
+    <Box>
       <Box>
         <Typography
           component="h6"
@@ -26,7 +21,7 @@ const LinkItem = ({ title, data }) => {
           {title}
         </Typography>
         <List sx={{ mb: '24px' }}>
-          {data.map((item) => (
+          {data?.map((item) => (
             <ListItem key={item.id} disableGutters>
               <Link href={item.path} passHref>
                 <Typography

@@ -10,20 +10,20 @@ import NewsLetter from './NewsLetter';
 
 const Footer = () => {
   return (
-    <Box
-      component="footer"
-      sx={{ backgroundColor: '#000', position: 'relative' }}
-    >
-      <Container maxWidth="lg" sx={{ position: 'relative', zIndex: 2 }}>
+    <Box component="footer" sx={{ backgroundColor: '#1D2547' }}>
+      <Container maxWidth="xl">
         <Box sx={{ pt: '90px', pb: '70px' }}>
           <Grid container spacing={2}>
-            <Grid item xs={12} md={6} lg={5}>
+            <Grid item xs={12} md={6} lg={4}>
               <FooterInfo data={footerData?.info} />
             </Grid>
-            <Grid item xs={12} md={6} lg={3}>
-              <LinkItem title="Importants Link" data={footerData?.services} />
+            <Grid item xs={12} md={6} lg={2}>
+              <LinkItem title="Categories" data={footerData?.categories} />
             </Grid>
-            <Grid item xs={12} lg={4}>
+            <Grid item xs={12} md={6} lg={2}>
+              <LinkItem title="Important Link" data={footerData?.links} />
+            </Grid>
+            <Grid item xs={12} md={6} lg={4}>
               <NewsLetter />
             </Grid>
           </Grid>
@@ -53,7 +53,7 @@ const Footer = () => {
                 },
               }}
             >
-              TBZ Engineering.
+              Subha Apparels.
             </Typography>
             {' All Rights Reserved by '}
             <Typography
@@ -68,31 +68,11 @@ const Footer = () => {
                 },
               }}
             >
-              TBZ Engineering
+              Subha Apparels
             </Typography>
           </Typography>
         </Box>
       </Container>
-      <ImageWrapper
-        src="/images/bg/foot_l.png"
-        alt=""
-        style={{
-          position: 'absolute',
-          left: 0,
-          bottom: 0,
-          pointerEvents: 'none',
-        }}
-      />
-      <ImageWrapper
-        src="/images/bg/foot_r.png"
-        alt=""
-        style={{
-          position: 'absolute',
-          right: 0,
-          top: 0,
-          pointerEvents: 'none',
-        }}
-      />
     </Box>
   );
 };

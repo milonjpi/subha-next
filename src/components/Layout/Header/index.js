@@ -54,7 +54,7 @@ const Header = () => {
       elevation={trigger ? 4 : 0}
       sx={{ py: 3, transition: 'all ease 1s' }}
     >
-      <Container maxWidth="lg">
+      <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box
             sx={{
@@ -152,7 +152,6 @@ const Header = () => {
             sx={{
               display: { xs: 'flex', md: 'none' },
               flexGrow: 1,
-              width: 180,
             }}
           >
             <Link href="/" passHref>

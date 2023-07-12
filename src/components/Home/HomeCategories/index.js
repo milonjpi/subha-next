@@ -8,7 +8,7 @@ import Link from 'next/link';
 const HomeCategories = () => {
   return (
     <Box sx={{ py: 5 }}>
-      <Container maxWidth="lg">
+      <Container maxWidth="xl">
         <Grid container spacing={4}>
           <Grid item xs={12} sm={6} md={4}>
             <Box

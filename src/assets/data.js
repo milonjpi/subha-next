@@ -514,55 +514,50 @@ export const footerData = {
     {
       id: 1,
       icon: <HomeOutlinedIcon sx={{ color: '#fff', fontSize: 22 }} />,
-      info: '39 Kazi Bhaban, 6th Floor, New Elephant Road, Dhaka-1205',
+      info: 'Chan Mia Bhaban, Ground Floor, Gulisthan, Dhaka-1205',
     },
     {
       id: 2,
       icon: <EmailOutlinedIcon sx={{ color: '#fff', fontSize: 20 }} />,
-      info: 'sales@tbz.com.bd',
+      info: 'info@subhaapparel.ocm',
     },
     {
       id: 3,
       icon: <PhoneIphoneOutlinedIcon sx={{ color: '#fff', fontSize: 20 }} />,
-      info: '+8801713991638',
+      info: '+8801101000001',
     },
   ],
-  services: [
+  categories: [
     {
       id: 1,
-      title: 'IT Consultations',
-      path: '/services',
+      title: 'Mens Wear',
+      path: '/clothes',
     },
     {
       id: 2,
-      title: 'Data Security',
-      path: '/services',
+      title: 'Women Wears',
+      path: '/clothes',
     },
     {
       id: 3,
-      title: 'Website Development',
-      path: '/services',
+      title: 'Boys Fashion',
+      path: '/clothes',
     },
     {
       id: 4,
-      title: 'UI/UX Design',
-      path: '/services',
+      title: 'Girls Design',
+      path: '/clothes',
     },
     {
       id: 5,
-      title: 'Cloud Services',
-      path: '/services',
-    },
-    {
-      id: 6,
-      title: 'CRM & Software',
-      path: '/services',
+      title: 'Kids Items',
+      path: '/clothes',
     },
   ],
   links: [
     {
       id: 1,
-      title: 'About TBZ',
+      title: 'About Us',
       path: '/about',
     },
     {
@@ -574,11 +569,6 @@ export const footerData = {
       id: 3,
       title: 'Contact',
       path: '/contact',
-    },
-    {
-      id: 4,
-      title: 'How We Works',
-      path: '/about',
     },
     {
       id: 5,

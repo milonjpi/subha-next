@@ -22,7 +22,7 @@ const TopHeader = () => {
         height: '41px',
       }}
     >
-      <Container maxWidth="lg">
+      <Container maxWidth="xl">
         <Grid container sx={{ alignItems: 'center' }}>
           <Grid
             item

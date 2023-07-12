@@ -7,6 +7,8 @@ import Portfolio from '../src/components/Home/Portfolio';
 import Layout from '../src/components/Layout';
 import HomeCategories from '../src/components/Home/HomeCategories';
 import FeaturedProducts from '../src/components/Home/FeaturedProducts';
+import HomeAbout from '../src/components/Home/HomeAbout';
+import HomeBlog from '../src/components/Home/HomeBlog';
 
 export default function Home() {
   return (
@@ -18,9 +20,11 @@ export default function Home() {
       <HeroSection />
       <HomeCategories />
       <FeaturedProducts />
-      <Portfolio />
+      <HomeAbout />
+      <HomeBlog />
+      {/* <Portfolio /> */}
       {/* <OurProduct /> */}
-      <BlogSection />
+      {/* <BlogSection /> */}
       {/* <ContactSection /> */}
     </Layout>
   );

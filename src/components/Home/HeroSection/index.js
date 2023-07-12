@@ -1,12 +1,6 @@
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import Grid from '@mui/material/Grid';
-import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import PlayCircleIcon from '@mui/icons-material/PlayCircle';
-import BlackButton from '../../../assets/customComponents/BlackButton';
-import ImageWrapper from '../../../assets/customComponents/ImageWrapper';
-import Link from 'next/link';
 
 const HeroSection = () => {
   return (
@@ -14,16 +8,22 @@ const HeroSection = () => {
       component="section"
       sx={{
         position: 'relative',
-        py: '100px',
         backgroundImage: 'url(images/bg/hero-bg.png)',
-        width: '100%',
-        height: '100%',
+        minHeight: 600,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
       }}
     >
-      <Container maxWidth="lg">
+      <Container
+        maxWidth="lg"
+        sx={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          minHeight: 600,
+        }}
+      >
         <Box sx={{ py: 12, textAlign: 'center' }}>
           <Box>
             <Typography
@@ -62,32 +62,6 @@ const HeroSection = () => {
           </Box>
         </Box>
       </Container>
-      <ImageWrapper
-        style={{
-          position: 'absolute',
-          right: 0,
-          top: '8%',
-          width: '55%',
-          objectFit: 'cover',
-          objectPosition: 'right',
-          zIndex: -999,
-        }}
-        src="/images/bg/hero_right.png"
-        alt=""
-      />
-      <ImageWrapper
-        style={{
-          position: 'absolute',
-          left: 0,
-          top: '25%',
-          height: '40%',
-          objectFit: 'cover',
-          objectPosition: 'left',
-          zIndex: -999,
-        }}
-        src="/images/bg/hero_left.png"
-        alt=""
-      />
     </Box>
   );
 };

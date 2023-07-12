@@ -2,7 +2,9 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
+import ButtonBase from '@mui/material/ButtonBase';
 import FeaturedItem from './FeaturedItem';
+import Link from 'next/link';
 
 const FeaturedProducts = () => {
   const featuredProduct = [
@@ -48,7 +50,7 @@ const FeaturedProducts = () => {
     },
   ];
   return (
-    <Box sx={{ py: 5 }}>
+    <Box sx={{ py: 5, mb: 7 }}>
       <Container maxWidth="lg">
         <Typography
           sx={{
@@ -83,6 +85,28 @@ const FeaturedProducts = () => {
               </Grid>
             ))}
           </Grid>
+          <Box sx={{ textAlign: 'center' }}>
+            <Link href="#" passHref>
+              <ButtonBase
+                component="a"
+                sx={{
+                  backgroundColor: '#e6e6e6',
+                  color: '#222',
+                  minWidth: 179,
+                  height: 46,
+                  fontSize: 16,
+                  borderRadius: '23px',
+                  transition: 'all 0.5s ease',
+                  '&:hover': {
+                    backgroundColor: '#111',
+                    color: '#fff',
+                  },
+                }}
+              >
+                Browse More
+              </ButtonBase>
+            </Link>
+          </Box>
         </Box>
       </Container>
     </Box>

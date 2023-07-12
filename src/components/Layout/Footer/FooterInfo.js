@@ -18,14 +18,16 @@ const FooterInfo = ({ data }) => {
       <Typography
         component="a"
         sx={{
-          mb: '16px',
+          mb: '10px',
           display: 'inline-block',
           color: '#fff',
           fontSize: '35px',
           fontWeight: 700,
+          fontFamily: 'Open Sans',
+          textTransform: 'uppercase',
         }}
       >
-        TBZ Engineering
+        Subha Apparels
       </Typography>
       <Typography
         component="p"
@@ -36,11 +38,11 @@ const FooterInfo = ({ data }) => {
           mb: '24px',
         }}
       >
-        Best IT Solutions &amp; Trusted Services <br />
-        For your Business
+        The ultimate clothing to see <br />
+        the world in.
       </Typography>
       <List sx={{ mb: '24px' }}>
-        {data.map((item) => (
+        {data?.map((item) => (
           <ListItem key={item.id} disableGutters>
             <ListItemIcon sx={{ minWidth: '30px' }}>{item.icon}</ListItemIcon>
             <ListItemText

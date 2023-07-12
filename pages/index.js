@@ -6,6 +6,7 @@ import OurProduct from '../src/components/Home/OurProduct';
 import Portfolio from '../src/components/Home/Portfolio';
 import Layout from '../src/components/Layout';
 import HomeCategories from '../src/components/Home/HomeCategories';
+import FeaturedProducts from '../src/components/Home/FeaturedProducts';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       </Head>
       <HeroSection />
       <HomeCategories />
+      <FeaturedProducts />
       <Portfolio />
       {/* <OurProduct /> */}
       <BlogSection />

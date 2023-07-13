@@ -10,7 +10,7 @@ import NewsLetter from './NewsLetter';
 
 const Footer = () => {
   return (
-    <Box component="footer" sx={{ backgroundColor: '#1D2547' }}>
+    <Box component="footer" sx={{ backgroundColor: '#000' }}>
       <Container maxWidth="xl">
         <Box sx={{ pt: '90px', pb: '70px' }}>
           <Grid container spacing={2}>

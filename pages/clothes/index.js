@@ -7,7 +7,7 @@ const ClothesPage = () => {
   return (
     <Layout>
       <Head>
-        <title>Clothes-SUBHA APPARELS</title>
+        <title>Clothes-Subha Apparels</title>
         <meta name="description" content="SUBHA APPAREL" />
       </Head>
       <Clothes />

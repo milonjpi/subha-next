@@ -7,8 +7,8 @@ const TermsPage = () => {
   return (
     <Layout>
       <Head>
-        <title>Terms and Condition-TBZ Engineering</title>
-        <meta name="description" content="TBZ Engineering" />
+        <title>Terms and Condition-Subha Apparels</title>
+        <meta name="description" content="Subha Apparels" />
       </Head>
       <TermsAndCondition />
     </Layout>

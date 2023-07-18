@@ -40,7 +40,7 @@ const HeroSection = () => {
                 textTransform: 'uppercase',
               }}
             >
-              TBZ Engineering
+              Subha Apparels
             </Typography>
           </Box>
           <Box>
@@ -57,7 +57,7 @@ const HeroSection = () => {
                 fontFamily: 'Open Sans',
               }}
             >
-              Technology &amp; IT Solutions
+              The Ultimate Clothing
             </Typography>
           </Box>
         </Box>

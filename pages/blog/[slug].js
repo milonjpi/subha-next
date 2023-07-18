@@ -8,8 +8,8 @@ const SingleBlogPage = ({ data }) => {
   return (
     <Layout>
       <Head>
-        <title>Single Blog - TBZ Engineering</title>
-        <meta name="description" content="TBZ Engineering" />
+        <title>Blog - {data?.name}</title>
+        <meta name="description" content="Subha Apparels" />
       </Head>
       <SingleBlog data={data} />
     </Layout>

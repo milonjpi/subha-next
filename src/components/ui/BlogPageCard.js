@@ -1,13 +1,10 @@
 import Box from '@mui/material/Box';
-import Grid from '@mui/material/Grid';
-import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
+import ButtonBase from '@mui/material/ButtonBase';
 import Image from 'next/image';
-import LocalMallOutlinedIcon from '@mui/icons-material/LocalMallOutlined';
-import StarIcon from '@mui/icons-material/Star';
 import Link from 'next/link';
 
-const HomeBlogItem = ({ data }) => {
+const BlogPageCard = ({ data }) => {
   return (
     <Box>
       <Box>
@@ -21,22 +18,23 @@ const HomeBlogItem = ({ data }) => {
             },
           }}
         >
-          <Link href="#" passHref>
+          <Link href={`/blog/${data?.slug}`} passHref>
             <a>
-              <Image
-                src={data?.image}
-                width={720}
-                height={539}
-                objectFit="cover"
-                alt="featured1"
-              />
+              <Box sx={{ width: '100%', height: 400, position: 'relative' }}>
+                <Image
+                  src={data?.image}
+                  layout="fill"
+                  objectFit="cover"
+                  alt="featured1"
+                />
+              </Box>
             </a>
           </Link>
         </Box>
       </Box>
       <Box sx={{ pt: '14px' }}>
         <Typography component="h4" sx={{ pb: '7px' }}>
-          <Link href="#" passHref>
+          <Link href={`/blog/${data?.slug}`} passHref>
             <Typography
               component="a"
               sx={{
@@ -72,12 +70,34 @@ const HomeBlogItem = ({ data }) => {
             lineHeight: '1.8',
           }}
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi et esse
-          debitis voluptatum tenetur quod placeat. laudantium.
+          {data?.para1.slice(0, 250) + '...'}
         </Typography>
+        <Box sx={{ pt: 3 }}>
+          <ButtonBase
+            disableRipple
+            sx={{
+              fontFamily: 'Open Sans',
+              textTransform: 'uppercase',
+              borderRadius: '23px',
+              backgroundColor: '#222222',
+              color: '#fff',
+              lineHeight: 1.8,
+              px: '22px',
+              height: 46,
+              width: 160,
+              fontSize: 16,
+              transition: 'all 0.3s ease',
+              '&:hover': {
+                backgroundColor: '#e65540',
+              },
+            }}
+          >
+            Read Blog
+          </ButtonBase>
+        </Box>
       </Box>
     </Box>
   );
 };
 
-export default HomeBlogItem;
+export default BlogPageCard;

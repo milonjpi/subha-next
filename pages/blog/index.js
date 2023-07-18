@@ -6,8 +6,8 @@ const BlogPage = () => {
   return (
     <Layout>
       <Head>
-        <title>Blog-TBZ Engineering</title>
-        <meta name="description" content="TBZ Engineering" />
+        <title>Blog-Subha Apparels</title>
+        <meta name="description" content="Subha Apparels" />
       </Head>
       <Blog />
     </Layout>
@@ -15,4 +15,3 @@ const BlogPage = () => {
 };
 
 export default BlogPage;
-

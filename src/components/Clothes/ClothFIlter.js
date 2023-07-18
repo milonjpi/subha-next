@@ -105,7 +105,7 @@ const ClothFIlter = () => {
             }
             sx={{
               border: '1px solid #ccc',
-              height: 58,
+              height: 50,
               color: '#555555',
               lineHeight: 1.8,
               px: '23px',

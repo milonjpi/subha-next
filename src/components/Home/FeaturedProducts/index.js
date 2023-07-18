@@ -3,9 +3,9 @@ import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import ButtonBase from '@mui/material/ButtonBase';
-import FeaturedItem from './FeaturedItem';
 import Link from 'next/link';
 import productData from '../../../assets/data/products';
+import ClothCard from '../../ui/ClothCard';
 
 const FeaturedProducts = () => {
   return (
@@ -40,7 +40,7 @@ const FeaturedProducts = () => {
                 sx={{ mb: 5 }}
                 key={el.id}
               >
-                <FeaturedItem data={el} />
+                <ClothCard data={el} />
               </Grid>
             ))}
           </Grid>

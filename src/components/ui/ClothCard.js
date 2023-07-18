@@ -5,7 +5,7 @@ import LocalMallOutlinedIcon from '@mui/icons-material/LocalMallOutlined';
 import StarIcon from '@mui/icons-material/Star';
 import Link from 'next/link';
 
-const FeaturedItem = ({ data }) => {
+const ClothCard = ({ data }) => {
   return (
     <Box
       sx={{
@@ -33,13 +33,18 @@ const FeaturedItem = ({ data }) => {
           overflow: 'hidden',
         }}
       >
-        <Image
-          src={data?.image}
-          width={720}
-          height={800}
-          objectFit="cover"
-          alt="featured1"
-        />
+        <Link href={`/clothes/${data?.slug}`} passHref>
+          <a>
+            <Image
+              src={data?.image}
+              width={720}
+              height={800}
+              objectFit="cover"
+              alt="featured1"
+            />
+          </a>
+        </Link>
+
         <Box
           sx={{
             position: 'absolute',
@@ -69,7 +74,7 @@ const FeaturedItem = ({ data }) => {
         }}
       >
         <Typography component="h3" sx={{ textAlign: 'center', mb: '10px' }}>
-          <Link href="#" passHref>
+          <Link href={`/clothes/${data?.slug}`} passHref>
             <Typography component="a" className="featuredLink">
               {data?.name}
             </Typography>
@@ -93,4 +98,4 @@ const FeaturedItem = ({ data }) => {
   );
 };
 
-export default FeaturedItem;
+export default ClothCard;

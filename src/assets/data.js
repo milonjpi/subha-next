@@ -169,7 +169,7 @@ export const projectData = [
         'All works follow compliance rules',
       ],
     },
-    screenshot: ['/images/projects/test.png', '/images/projects/1.png'],
+    screenshot: ['/images/projects/1.png', '/images/projects/1.png'],
   },
   {
     id: 2,
@@ -199,7 +199,7 @@ export const projectData = [
         'Full documented with workflow',
       ],
     },
-    screenshot: ['/images/projects/test.png', '/images/projects/2.png'],
+    screenshot: ['/images/projects/2.png', '/images/projects/2.png'],
   },
   {
     id: 3,
@@ -229,7 +229,7 @@ export const projectData = [
         'Full documented with workflow',
       ],
     },
-    screenshot: ['/images/projects/test.png', '/images/projects/3.png'],
+    screenshot: ['/images/projects/3.png', '/images/projects/3.png'],
   },
   {
     id: 4,
@@ -259,7 +259,7 @@ export const projectData = [
         'Full documented with workflow',
       ],
     },
-    screenshot: ['/images/projects/test.png', '/images/projects/4.png'],
+    screenshot: ['/images/projects/4.png', '/images/projects/4.png'],
   },
 
   {
@@ -289,7 +289,7 @@ export const projectData = [
         'Full documented with workflow',
       ],
     },
-    screenshot: ['/images/projects/test.png', '/images/projects/5.png'],
+    screenshot: ['/images/projects/5.png', '/images/projects/5.png'],
   },
   {
     id: 6,
@@ -319,7 +319,7 @@ export const projectData = [
         'Full documented with workflow',
       ],
     },
-    screenshot: ['/images/projects/test.png', '/images/projects/6.png'],
+    screenshot: ['/images/projects/6.png', '/images/projects/6.png'],
   },
   {
     id: 7,
@@ -348,7 +348,7 @@ export const projectData = [
         'Full documented with workflow',
       ],
     },
-    screenshot: ['/images/projects/test.png', '/images/projects/7.png'],
+    screenshot: ['/images/projects/7.png', '/images/projects/7.png'],
   },
   {
     id: 8,
@@ -378,7 +378,7 @@ export const projectData = [
         'Full documented with workflow',
       ],
     },
-    screenshot: ['/images/projects/test.png', '/images/projects/8.png'],
+    screenshot: ['/images/projects/8.png', '/images/projects/8.png'],
   },
 ];
 

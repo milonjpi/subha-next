@@ -14,8 +14,8 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Home-TBZ Engineering</title>
-        <meta name="description" content="TBZ Engineering" />
+        <title>Home-Subha Apparels</title>
+        <meta name="description" content="Subha Apparels" />
       </Head>
       <HeroSection />
       <HomeCategories />

@@ -4,14 +4,13 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import InputBase from '@mui/material/InputBase';
 import ButtonBase from '@mui/material/ButtonBase';
-import heading from '../../assets/images/about/heading.jpg';
 
 const Contact = () => {
   return (
     <Box component="section">
       <Box
         sx={{
-          backgroundImage: `url(${heading.src})`,
+          backgroundImage: 'url(images/contact/bg.jpg)',
           minHeight: 250,
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',

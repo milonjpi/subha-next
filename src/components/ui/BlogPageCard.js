@@ -25,7 +25,7 @@ const BlogPageCard = ({ data }) => {
                   src={data?.image}
                   layout="fill"
                   objectFit="cover"
-                  alt="featured1"
+                  alt={data?.name}
                 />
               </Box>
             </a>

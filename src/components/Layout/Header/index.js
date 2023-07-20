@@ -26,8 +26,8 @@ const BrandImage = styled.img`
 
 const pages = [
   { title: 'Home', path: '/' },
-  { title: 'Clothes', path: '/services' },
-  { title: 'Accessories', path: '/portfolio' },
+  { title: 'Clothes', path: '/clothes' },
+  { title: 'Accessories', path: '/accessories' },
   { title: 'Blog', path: '/blog' },
   { title: 'About', path: '/about' },
   { title: 'Contact', path: '/contact' },

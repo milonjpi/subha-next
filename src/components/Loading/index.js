@@ -4,7 +4,7 @@ import Box from '@mui/material/Box';
 const Loading = ({ loading }) => {
   return (
     <Box id="preloader" className={!loading ? 'isDone' : ''}>
-      <LinearProgress
+      {/* <LinearProgress
         sx={{
           width: '300px',
           top: '50%',
@@ -14,7 +14,9 @@ const Loading = ({ loading }) => {
           color: '#fff',
           height: '2px',
         }}
-      />
+      /> */}
+
+      <div class="preloader-spin"></div>
     </Box>
   );
 };

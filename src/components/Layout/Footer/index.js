@@ -2,11 +2,10 @@ import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import ImageWrapper from '../../../assets/customComponents/ImageWrapper';
-import { footerData } from '../../../assets/data';
 import FooterInfo from './FooterInfo';
 import LinkItem from './LinkItem';
 import NewsLetter from './NewsLetter';
+import footerData from '../../../assets/data/footerData';
 
 const Footer = () => {
   return (

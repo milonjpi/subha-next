@@ -19,6 +19,7 @@ const CategoriesItem = ({ title, height, image, sx = {} }) => {
         src={image}
         width={720}
         height={height}
+        objectFit="cover"
         alt="women"
         style={{ transition: 'all 0.6s' }}
       />

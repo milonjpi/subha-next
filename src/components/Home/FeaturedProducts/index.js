@@ -45,7 +45,7 @@ const FeaturedProducts = () => {
             ))}
           </Grid>
           <Box sx={{ textAlign: 'center' }}>
-            <Link href="#" passHref>
+            <Link href="/clothes" passHref>
               <ButtonBase
                 component="a"
                 sx={{

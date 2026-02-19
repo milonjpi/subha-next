@@ -16,6 +16,7 @@ import styled from '@emotion/styled';
 import Link from 'next/link';
 import HeaderContact from './HeaderContact';
 import { useRouter } from 'next/router';
+import Image from 'next/image';
 
 //assets
 const brandImage = '/images/logo.png';
@@ -52,7 +53,7 @@ const Header = () => {
       enableColorOnDark={true}
       color="common"
       elevation={trigger ? 4 : 0}
-      sx={{ py: 3, transition: 'all ease 1s' }}
+      sx={{ py: 1.5, transition: 'all ease 1s' }}
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
@@ -71,11 +72,15 @@ const Header = () => {
                   color: '#222',
                   fontFamily: 'Open Sans',
                   fontWeight: 700,
-                  fontSize: 30,
-                  // letterSpacing: 2,
                 }}
               >
-                SUBHA<span style={{ color: '#e53637' }}>.</span>
+                <Image
+                  src="/images/logo.png"
+                  width={130}
+                  height={40}
+                  objectFit="contain"
+                  alt="Olive"
+                />
               </Typography>
             </Link>
           </Box>
@@ -166,7 +171,13 @@ const Header = () => {
                   // letterSpacing: 2,
                 }}
               >
-                SUBHA<span style={{ color: '#e53637' }}>.</span>
+                <Image
+                  src="/images/logo.png"
+                  width={130}
+                  height={40}
+                  objectFit="contain"
+                  alt="Olive"
+                />
               </Typography>
             </Link>
           </Box>

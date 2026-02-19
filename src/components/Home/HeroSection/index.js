@@ -40,7 +40,7 @@ const HeroSection = () => {
                 textTransform: 'uppercase',
               }}
             >
-              Subha Apparels
+              OLIVE & CO.
             </Typography>
           </Box>
           <Box>

@@ -52,7 +52,7 @@ const Footer = () => {
                 },
               }}
             >
-              Subha Apparels.
+              OLIVE & CO.
             </Typography>
             {' All Rights Reserved by '}
             <Typography
@@ -67,7 +67,7 @@ const Footer = () => {
                 },
               }}
             >
-              Subha Apparels
+              OLIVE & CO.
             </Typography>
           </Typography>
         </Box>

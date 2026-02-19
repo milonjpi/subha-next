@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Home-Subha Apparels</title>
-        <meta name="description" content="Subha Apparels" />
+        <title>Home - OLIVE & CO.</title>
+        <meta name="description" content="OLIVE & CO." />
       </Head>
       <HeroSection />
       <HomeCategories />

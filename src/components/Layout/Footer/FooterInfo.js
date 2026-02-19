@@ -27,7 +27,7 @@ const FooterInfo = ({ data }) => {
           textTransform: 'uppercase',
         }}
       >
-        Subha Apparels
+        OLIVE & CO.
       </Typography>
       <Typography
         component="p"

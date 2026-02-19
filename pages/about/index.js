@@ -6,8 +6,8 @@ const AboutPage = () => {
   return (
     <Layout>
       <Head>
-        <title>About-Subha Apparels</title>
-        <meta name="description" content="Subha Apparels" />
+        <title>About - OLIVE & CO.</title>
+        <meta name="description" content="OLIVE & CO." />
       </Head>
       <About />
     </Layout>

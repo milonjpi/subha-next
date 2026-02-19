@@ -6,8 +6,8 @@ const BlogPage = () => {
   return (
     <Layout>
       <Head>
-        <title>Blog-Subha Apparels</title>
-        <meta name="description" content="Subha Apparels" />
+        <title>Blog - OLIVE & CO.</title>
+        <meta name="description" content="OLIVE & CO." />
       </Head>
       <Blog />
     </Layout>

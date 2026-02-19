@@ -8,12 +8,12 @@ const footerData = {
     {
       id: 1,
       icon: <HomeOutlinedIcon sx={{ color: '#fff', fontSize: 22 }} />,
-      info: 'Chan Mia Bhaban, Ground Floor, Gulisthan, Dhaka-1205',
+      info: 'Mirpur-01, Dhaka-1205, Bangladesh',
     },
     {
       id: 2,
       icon: <EmailOutlinedIcon sx={{ color: '#fff', fontSize: 20 }} />,
-      info: 'info@subhaapparel.ocm',
+      info: 'info@oliveco.store',
     },
     {
       id: 3,

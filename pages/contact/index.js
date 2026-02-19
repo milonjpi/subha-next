@@ -7,8 +7,8 @@ const ContactPage = () => {
   return (
     <Layout>
       <Head>
-        <title>Contact-Subha Apparels</title>
-        <meta name="description" content="Subha Apparels" />
+        <title>Contact - OLIVE & CO.</title>
+        <meta name="description" content="OLIVE & CO." />
       </Head>
       <Contact />
     </Layout>

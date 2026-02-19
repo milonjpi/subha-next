@@ -6,8 +6,8 @@ const PolicyPage = () => {
   return (
     <Layout>
       <Head>
-        <title>Policy-Subha Apparels</title>
-        <meta name="description" content="Subha Apparels" />
+        <title>Policy - OLIVE & CO.</title>
+        <meta name="description" content="OLIVE & CO." />
       </Head>
       <Policy />
     </Layout>

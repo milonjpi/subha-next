@@ -9,7 +9,7 @@ const SingleBlogPage = ({ data }) => {
     <Layout>
       <Head>
         <title>Blog - {data?.name}</title>
-        <meta name="description" content="Subha Apparels" />
+        <meta name="description" content="OLIVE & CO." />
       </Head>
       <SingleBlog data={data} />
     </Layout>

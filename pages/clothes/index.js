@@ -7,8 +7,8 @@ const ClothesPage = () => {
   return (
     <Layout>
       <Head>
-        <title>Clothes-Subha Apparels</title>
-        <meta name="description" content="SUBHA APPAREL" />
+        <title>Clothes - OLIVE & CO.</title>
+        <meta name="description" content="OLIVE & CO." />
       </Head>
       <Clothes />
     </Layout>

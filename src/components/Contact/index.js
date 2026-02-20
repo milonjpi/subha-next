@@ -40,7 +40,7 @@ const Contact = () => {
             <Grid item xs={12} md={6}>
               <Box sx={{ overflow: 'hidden' }}>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d654.7346245182841!2d90.40660300426556!3d23.72083943735236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1689250323480!5m2!1sen!2sbd"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3004.787557804999!2d90.3534040343696!3d23.797843705134802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1771577859382!5m2!1sen!2sbd"
                   width="100%"
                   height="500"
                   style={{ border: 0 }}

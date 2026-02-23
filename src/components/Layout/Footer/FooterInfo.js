@@ -8,9 +8,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import React from 'react';
-
-const socialIconList = [TwitterIcon, FacebookIcon, LinkedInIcon, InstagramIcon];
+import Link from 'next/link';
 
 const FooterInfo = ({ data }) => {
   return (
@@ -56,10 +54,36 @@ const FooterInfo = ({ data }) => {
         ))}
       </List>
       <Box sx={{ mt: '10px', display: 'flex' }}>
-        {socialIconList.map((Item, index) => (
+        <Typography
+          component="a"
+          sx={{
+            width: 33,
+            height: 33,
+            borderRadius: '50%',
+            display: 'inline-flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            backgroundColor: '#2c2c2c',
+            m: '5px',
+            cursor: 'pointer',
+            '&:hover': {
+              background: 'linear-gradient(to right, #0c3df4 0%, #02b5ff 100%)',
+              '& .footerSocialIcon': {
+                color: '#fff',
+              },
+            },
+          }}
+        >
+          <TwitterIcon
+            className="footerSocialIcon"
+            fontSize="small"
+            sx={{ color: '#aaa7a7', transition: 'all 0.5s ease' }}
+          />
+        </Typography>
+        <Link href="https://facebook.com/oliveandcom" passHref>
           <Typography
-            key={index}
             component="a"
+            target="_blank"
             sx={{
               width: 33,
               height: 33,
@@ -79,13 +103,66 @@ const FooterInfo = ({ data }) => {
               },
             }}
           >
-            <Item
+            <FacebookIcon
               className="footerSocialIcon"
               fontSize="small"
               sx={{ color: '#aaa7a7', transition: 'all 0.5s ease' }}
             />
           </Typography>
-        ))}
+        </Link>
+
+        <Typography
+          component="a"
+          sx={{
+            width: 33,
+            height: 33,
+            borderRadius: '50%',
+            display: 'inline-flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            backgroundColor: '#2c2c2c',
+            m: '5px',
+            cursor: 'pointer',
+            '&:hover': {
+              background: 'linear-gradient(to right, #0c3df4 0%, #02b5ff 100%)',
+              '& .footerSocialIcon': {
+                color: '#fff',
+              },
+            },
+          }}
+        >
+          <LinkedInIcon
+            className="footerSocialIcon"
+            fontSize="small"
+            sx={{ color: '#aaa7a7', transition: 'all 0.5s ease' }}
+          />
+        </Typography>
+        <Typography
+          component="a"
+          sx={{
+            width: 33,
+            height: 33,
+            borderRadius: '50%',
+            display: 'inline-flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            backgroundColor: '#2c2c2c',
+            m: '5px',
+            cursor: 'pointer',
+            '&:hover': {
+              background: 'linear-gradient(to right, #0c3df4 0%, #02b5ff 100%)',
+              '& .footerSocialIcon': {
+                color: '#fff',
+              },
+            },
+          }}
+        >
+          <InstagramIcon
+            className="footerSocialIcon"
+            fontSize="small"
+            sx={{ color: '#aaa7a7', transition: 'all 0.5s ease' }}
+          />
+        </Typography>
       </Box>
     </Box>
   );

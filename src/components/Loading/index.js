@@ -16,7 +16,7 @@ const Loading = ({ loading }) => {
         }}
       /> */}
 
-      <div class="preloader-spin"></div>
+      <div className="preloader-spin"></div>
     </Box>
   );
 };

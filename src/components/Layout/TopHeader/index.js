@@ -11,6 +11,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import React from 'react';
 import styled from '@emotion/styled';
+import Link from 'next/link';
 
 const LangImage = styled.img``;
 
@@ -71,10 +72,15 @@ const TopHeader = () => {
                   color="common"
                   sx={{ mx: 0.5, cursor: 'pointer', fontSize: 16 }}
                 />
-                <FacebookIcon
-                  color="common"
-                  sx={{ mx: 0.5, cursor: 'pointer', fontSize: 16 }}
-                />
+                <Link href="https://facebook.com/oliveandcom" passHref>
+                  <a target="_blank">
+                    <FacebookIcon
+                      color="common"
+                      sx={{ mx: 0.5, cursor: 'pointer', fontSize: 16 }}
+                    />
+                  </a>
+                </Link>
+
                 <LinkedInIcon
                   color="common"
                   sx={{ mx: 0.5, cursor: 'pointer', fontSize: 16 }}

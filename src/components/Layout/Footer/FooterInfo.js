@@ -36,8 +36,8 @@ const FooterInfo = ({ data }) => {
           mb: '24px',
         }}
       >
-        The ultimate clothing to see <br />
-        the world in.
+        Quiet luxury, thoughtfully crafted. <br />
+        Effortlessly worn.
       </Typography>
       <List sx={{ mb: '24px' }}>
         {data?.map((item) => (

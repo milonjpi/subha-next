@@ -57,7 +57,7 @@ const HeroSection = () => {
                 fontFamily: 'Open Sans',
               }}
             >
-              The Ultimate Clothing
+              Quiet Luxury
             </Typography>
           </Box>
         </Box>

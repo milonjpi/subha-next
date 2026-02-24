@@ -13,12 +13,12 @@ const footerData = {
     {
       id: 2,
       icon: <EmailOutlinedIcon sx={{ color: '#fff', fontSize: 20 }} />,
-      info: 'info@oliveco.store',
+      info: 'contact@oliveco.store',
     },
     {
       id: 3,
       icon: <PhoneIphoneOutlinedIcon sx={{ color: '#fff', fontSize: 20 }} />,
-      info: '+8801101000001',
+      info: '+8801915985017',
     },
   ],
   categories: [

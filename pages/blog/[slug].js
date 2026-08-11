@@ -1,15 +1,15 @@
 import Head from 'next/head';
 import React from 'react';
-import { postsData } from '../../src/assets/data';
 import SingleBlog from '../../src/components/Blog/SingleBlog';
 import Layout from './../../src/components/Layout/index';
+import blogsData from '../../src/assets/data/blogsData';
 
 const SingleBlogPage = ({ data }) => {
   return (
     <Layout>
       <Head>
         <title>Blog - {data?.name}</title>
-        <meta name="description" content="Subha Apparels" />
+        <meta name="description" content="OLIVE & CO." />
       </Head>
       <SingleBlog data={data} />
     </Layout>
@@ -17,7 +17,7 @@ const SingleBlogPage = ({ data }) => {
 };
 
 export async function getServerSideProps({ params }) {
-  const data = postsData.find((item) => item.slug === params?.slug);
+  const data = blogsData.find((item) => item.slug === params?.slug);
 
   if (!data) {
     return {

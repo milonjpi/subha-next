@@ -7,7 +7,7 @@ import StarIcon from '@mui/icons-material/Star';
 const ClothSideCard = ({ data }) => {
   return (
     <Box sx={{ display: 'flex', alignItems: 'start', mb: 2 }}>
-      <Link href={`/blog/${data?.slug}`} passHref>
+      <Link href={`/clothes/${data?.slug}`} passHref>
         <a>
           <Box
             sx={{

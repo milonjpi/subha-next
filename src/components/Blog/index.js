@@ -10,7 +10,7 @@ const Blog = () => {
     <Box component="section">
       <Box
         sx={{
-          backgroundImage: 'url(images/heading/clothHead.jpg)',
+          backgroundImage: 'url(images/blog/bg.jpg)',
           minHeight: 220,
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',

@@ -17,14 +17,14 @@ const BlogCard = ({ data }) => {
             },
           }}
         >
-          <Link href="#" passHref>
+          <Link href={`/blog/${data?.slug}`} passHref>
             <a>
               <Image
                 src={data?.image}
                 width={720}
                 height={539}
                 objectFit="cover"
-                alt="featured1"
+                alt={data?.name}
               />
             </a>
           </Link>
@@ -32,7 +32,7 @@ const BlogCard = ({ data }) => {
       </Box>
       <Box sx={{ pt: '14px' }}>
         <Typography component="h4" sx={{ pb: '7px' }}>
-          <Link href="#" passHref>
+          <Link href={`/blog/${data?.slug}`} passHref>
             <Typography
               component="a"
               sx={{

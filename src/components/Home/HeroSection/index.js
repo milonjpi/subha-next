@@ -40,7 +40,7 @@ const HeroSection = () => {
                 textTransform: 'uppercase',
               }}
             >
-              Subha Apparels
+              OLIVE & CO.
             </Typography>
           </Box>
           <Box>
@@ -57,7 +57,7 @@ const HeroSection = () => {
                 fontFamily: 'Open Sans',
               }}
             >
-              The Ultimate Clothing
+              Quiet Luxury
             </Typography>
           </Box>
         </Box>

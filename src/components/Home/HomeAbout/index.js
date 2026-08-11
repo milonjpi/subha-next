@@ -22,7 +22,7 @@ const HomeAbout = () => {
         <Typography
           component="h2"
           sx={{
-            color: '#fff',
+            color: '#22222259',
             fontSize: 70,
             mb: '21px',
             lineHeight: 1.2,

@@ -25,7 +25,7 @@ const HeaderContact = ({ display = { xs: 'none', lg: 'flex' } }) => {
           hotline 24/7
         </Typography>
         <Typography sx={{ fontSize: 15, color: '#000', fontWeight: 700 }}>
-          +8801713991638
+          +8801915985017
         </Typography>
       </Box>
     </Box>

@@ -1,9 +1,5 @@
 import Head from 'next/head';
-import BlogSection from '../src/components/Home/BlogSection';
-import ContactSection from '../src/components/Home/ContactSection';
 import HeroSection from '../src/components/Home/HeroSection';
-import OurProduct from '../src/components/Home/OurProduct';
-import Portfolio from '../src/components/Home/Portfolio';
 import Layout from '../src/components/Layout';
 import HomeCategories from '../src/components/Home/HomeCategories';
 import FeaturedProducts from '../src/components/Home/FeaturedProducts';
@@ -14,18 +10,14 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Home-Subha Apparels</title>
-        <meta name="description" content="Subha Apparels" />
+        <title>Home - OLIVE & CO.</title>
+        <meta name="description" content="OLIVE & CO." />
       </Head>
       <HeroSection />
       <HomeCategories />
       <FeaturedProducts />
       <HomeAbout />
       <HomeBlog />
-      {/* <Portfolio /> */}
-      {/* <OurProduct /> */}
-      {/* <BlogSection /> */}
-      {/* <ContactSection /> */}
     </Layout>
   );
 }

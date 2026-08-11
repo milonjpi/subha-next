@@ -9,8 +9,8 @@ const SingleClothPage = ({ data }) => {
   return (
     <Layout>
       <Head>
-        <title>Subha Apparels - {data?.name}</title>
-        <meta name="description" content="Subha Apparels" />
+        <title>OLIVE & CO. - {data?.name}</title>
+        <meta name="description" content="OLIVE & CO." />
       </Head>
       <SingleCloth data={data} />
     </Layout>

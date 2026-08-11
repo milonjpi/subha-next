@@ -3,15 +3,13 @@ import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Image from 'next/image';
-import heading from '../../assets/images/about/heading.jpg';
-import banner from '../../assets/images/about/banner.jpg';
 
 const About = () => {
   return (
     <Box component="section">
       <Box
         sx={{
-          backgroundImage: `url(${heading.src})`,
+          backgroundImage: 'url(/images/about/bg.jpg)',
           minHeight: 250,
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
@@ -39,7 +37,13 @@ const About = () => {
         <Box sx={{ py: 10 }}>
           <Grid container spacing={5}>
             <Grid item xs={12} md={4} sx={{ textAlign: 'center' }}>
-              <Image src={banner} alt="banner" />
+              <Image
+                src="/images/about/banner.jpg"
+                width={720}
+                height={866}
+                objectFit="cover"
+                alt="banner"
+              />
             </Grid>
             <Grid item xs={12} md={8}>
               <Box>

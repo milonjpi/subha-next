@@ -40,7 +40,7 @@ const ClothCard = ({ data }) => {
               width={720}
               height={800}
               objectFit="cover"
-              alt="featured1"
+              alt={data?.name}
             />
           </a>
         </Link>
